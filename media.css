@@ -1,0 +1,110 @@
+
+
+@media only screen and (max-width: 576px) {
+    
+    .section{
+        height: 100%;
+        display: grid;
+        width: 100%;
+    }    
+
+    .sec1{
+        width: max-content;
+        margin: 0;
+    }
+    .sec1Content{
+        flex-direction: row;
+        width: 100vw;
+        justify-content: space-between;
+        background-color: white;
+    }
+
+    .sec2{
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        background-color: white;
+    }
+
+    .sec2 .sec2Img{
+        height: 400px;
+    }
+
+
+
+    .sec3{
+        background-color: white;
+        margin: 0;
+        width: 100vw;
+        height: 100%;
+    }
+
+
+    .aboutTab{
+        position: relative;
+        display: block;
+    }
+
+    .resumeTab{
+        position: relative;
+        display: block;
+    }
+
+    .worksTab{
+        position: relative;
+        display: block;
+    }
+
+    .contactTab{
+        position:relative;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+/* .section{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.sec1{
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+}
+
+.sec1Content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.sec2{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sec3{
+    position: relative;
+    width: 100%;
+}
+.aboutTab{
+    position: relative;
+}
+
+#page2,#page3,#page4{
+    display: block;
+} */
