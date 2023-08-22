@@ -129,7 +129,7 @@ body{
 
 .sec2 .sec2Img{
     height: 50%;
-    background-image: url(./images/profile_pic.jpeg);
+    background-image: url(../images/profile_pic.jpeg);
     background-size: cover;
     background-position: center;
     background-position: inherit;
@@ -239,9 +239,22 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
     
 }
 
+.abt::-webkit-scrollbar{
+    display: none;
+}
+.myskill::-webkit-scrollbar{
+    display: none;
+}
+.resumePage::-webkit-scrollbar{
+    display: none;
+}
+.contactPage::-webkit-scrollbar{
+    display: none;
+}
 
 .sec3 .tab{
     height: 100%;
@@ -249,6 +262,7 @@ body{
     border-radius: 0 5px 5px 0;
     background-color: white;
     z-index: 1;
+
 }
 
 .aboutTab{

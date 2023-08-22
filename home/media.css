@@ -9,6 +9,7 @@
     }    
 
     .sec1{
+        display: none;
         width: max-content;
         margin: 0;
     }
