@@ -119,6 +119,7 @@ body{
     object-fit: cover;
     transition: 0.5s;
     box-shadow: rgba(0, 0, 0, 0.60) 0px 5px 15px;
+    z-index: 2;
 }
 
 .sec2:hover{
