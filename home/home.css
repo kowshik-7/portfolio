@@ -785,3 +785,25 @@ body{
     border: 1px solid #f7dabe;
     padding: 5px;
 }
+
+
+/* ========================= */
+
+.about,.resume,.works,.contact{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.about:hover button,.resume:hover button,.works:hover button,.contact:hover button{
+    background-color: whitesmoke;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.about:hover,.resume:hover,.works:hover,.contact:hover {
+    background-color: whitesmoke;
+    /* box-shadow: inset 7px 10px 20px -3px rgba(0,0,0,0.1); */
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px inset;
+    transition: 0.3s;
+}
+

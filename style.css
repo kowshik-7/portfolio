@@ -1,13 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
 	/* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
     background: linear-gradient(-60deg, #F8A442, #f7dabe, #e36b13);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Noto Sans', sans-serif;  
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
 }
 img:hover{
     opacity: 90%;
@@ -154,78 +159,101 @@ nav li a{
     color: black;
 } */
 
+
+
+
 /* profile pic */
-.continer{
-    display: flex;
-    justify-content: center;
+
+.container{
+    /* position: absolute; */
+    height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .profilePic{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-}
-
-.name{
-    font-size: 25px;
-    font-weight: 800;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.profession{
-    margin: 0;
+    gap: 2px;
+    line-height: 1;
 }
 
 .profilePic img{
-    margin-top: 50vh;
+    height: 35%;
+    width: 35%px;
     border-radius: 50%;
-    height: 30VH;
-    width: 30VH;
+    object-fit: scale-down;
 }
+
+.profilePic .name{
+    padding-top: 10px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+
+.profilePic .profession{
+    font-size: 14px;
+    padding-top: 2px;
+    /* letter-spacing: 1px; */
+}
+
+.redirect{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50%;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.redirect a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redirect a i{
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.redirect:hover{
+    background-color: transparent;
+    border: 3px solid black;
+    transition: 0.5s;
+}
+
+.redirect:hover i{
+    color: black;
+    transition: 0.5s;
+}
+
 
 .socialMedia{
-    width: 100%;
-    margin-top: 4%;
+    /* width: 100%; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px 20px;
     display: flex;
-    justify-content: center;
+    gap: 10px;
 }
 
-.download {
-    margin-top: 40px;
-}
-.download a{
-    padding: 15px;
-    background-color: white;
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.download a i{
-    font-size: 30px;
-}
-.download a:hover{
-    background-color: #F8A442;
-    color: white;
-}
+.socialMedia a{
 
-.socialMedia i{
-    margin: 0px 15px ;
 }
-
-nav ul li :hover{
-    background-color: #F8A442;
-    color: white;
-}
-
-.download:hover{
-    background-color: #F8A442;
-    color: white;
-    border-radius: 50%;
+.socialMedia a i{
+    font-size: 26px;
 }
